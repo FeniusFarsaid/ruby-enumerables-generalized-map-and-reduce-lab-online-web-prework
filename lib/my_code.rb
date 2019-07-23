@@ -5,6 +5,6 @@ def map(source_array)
 end 
 
 def second_map(source_array)
-  source_array.each{} 
+  source_array.map 
   
 end 
