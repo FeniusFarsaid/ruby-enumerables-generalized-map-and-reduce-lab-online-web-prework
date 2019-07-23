@@ -14,4 +14,5 @@ def map(source_array)
 	new
 end
 
-expect(map([1, 2, 3, -9]){|n| n * -1}).to eq([-1, -2, -3, 9])
+#expect(map([1, 2, 3, -9]){|n| n * -1}).to eq([-1, -2, -3, 9])
+
