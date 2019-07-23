@@ -1,6 +1,15 @@
 # Your Code Here
-def map(source_array)
-  source_array.map{|n| n * -1}
+# def map(source_array)
+#   source_array.map{|n| n * -1}
   
-end 
+# end 
 
+def map(s)   
+	new = []   
+	i = 0   
+	while i < s.length     
+		new.push(yield(s[i]))     
+		i += 1   
+	end   
+	new 
+end 
