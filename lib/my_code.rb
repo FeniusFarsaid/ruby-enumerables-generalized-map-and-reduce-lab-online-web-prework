@@ -5,6 +5,6 @@ def map(source_array)
 end 
 
 def second_map(dune)
-  dune.each 
+  dune.each{}
   
 end 
