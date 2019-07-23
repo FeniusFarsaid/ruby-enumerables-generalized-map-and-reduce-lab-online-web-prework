@@ -1,5 +1,5 @@
 # Your Code Here
-def map(source_array)
+def my_map(source_array)
   source_array.map{|n| n * -1}
   
 end 
