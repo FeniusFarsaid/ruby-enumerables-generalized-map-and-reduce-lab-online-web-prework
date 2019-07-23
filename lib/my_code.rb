@@ -4,7 +4,7 @@ def map(source_array)
   
 end 
 
-def second_map(dune)
+def map(dune)
   dune.each{}
   
 end 
