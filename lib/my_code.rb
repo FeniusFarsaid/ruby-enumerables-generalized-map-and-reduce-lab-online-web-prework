@@ -29,6 +29,7 @@ def reduce(source_array, starting_point = nil)
 		memo = (yield(memo, source_array[i]))    
 		i += 1 
 		end 
+		memo
 	end 
   
   
