@@ -4,11 +4,11 @@
   
 # end 
 
-def map(s)   
+def map(source_array)   
 	new = []   
 	i = 0   
-	while i < s.length do    
-		new.push(yield(s[i]))     
+	while i < source_array.length do    
+		new.push(yield(source_array[i]))     
 		i += 1   
 	end   
 	new 
