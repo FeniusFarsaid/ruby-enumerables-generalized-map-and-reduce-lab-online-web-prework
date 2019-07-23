@@ -16,3 +16,6 @@ end
 
 #expect(map([1, 2, 3, -9]){|n| n * -1}).to eq([-1, -2, -3, 9])
 
+def reduce(source_array, starting_point = nil)
+  source_array.sum{
+  
