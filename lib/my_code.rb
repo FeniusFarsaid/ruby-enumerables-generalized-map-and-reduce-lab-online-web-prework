@@ -17,5 +17,21 @@ end
 #expect(map([1, 2, 3, -9]){|n| n * -1}).to eq([-1, -2, -3, 9])
 
 def reduce(source_array, starting_point = nil)
-  source_array.sum{
+  if starting_point
+    i = 0 
+    memo = starting_point
+  else 
+    i = 1 
+    memo = source_array[0]
+  end
+  
+  while i < source_array.length do    
+		memo = (yield(source_array[i]))    
+		i += 1  
+	end 
+  
+  
+  
+  
+  
   
